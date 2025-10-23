@@ -1,0 +1,13 @@
+n, m = map(int, input().split())
+
+cost_per_cake = 30
+sell_price_per_cake = 50
+
+total_cost = n * cost_per_cake
+
+total_earned = m * sell_price_per_cake
+
+profit = total_earned - total_cost
+
+
+print(profit)
